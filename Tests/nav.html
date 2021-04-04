@@ -1,0 +1,25 @@
+<html>
+<body>
+
+    <script src="jquery.js"></script>
+<script src="scripts.js"></script>
+<link rel="stylesheet" href="nav.css">
+
+    <button onclick="window.location.href='page1.html'" class="nav1" id="nav1">Page 1</button>
+    <button onclick="window.location.href='page2.html'" class="nav2" id="nav2">Page 2</button>
+    <button onclick="window.location.href='page3.html'" class="nav3" id="nav3">Page 3</button> 
+
+<script>
+if ( document.URL.includes("page1.html") ) {
+  document.getElementById('nav1').classList.add ("page1");
+}
+if ( document.URL.includes("page2.html") ) {
+  document.getElementById('nav2').classList.add ("page2");
+}
+if ( document.URL.includes("page3.html") ) {
+  document.getElementById('nav3').classList.add ("page3");
+}
+
+</script>
+</body>
+</html>

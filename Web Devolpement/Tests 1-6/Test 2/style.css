@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+  }
+  
+ .box-one {
+    max-width: 50%;
+    margin: auto;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #003366;
+  }
+
+  header {
+    background-image:linear-gradient(to right, #004d99,#3399ff);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    min-width: 100%;
+  }
+  section {
+    display: -webkit-flex;
+    display: flex;
+  }
+  nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background-image:linear-gradient(to right, #0073e6,#0080ff,#0073e6);
+    padding-left: 15px;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+
+  article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color:#3399ff;
+    padding: 10px;
+  }
+  
+
+  footer {
+    background-image:linear-gradient(to right, #004d99,#3399ff);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .button {
+    background-color: none;
+    background-image: linear-gradient(to right, #3366cc, rgb(47, 89, 228));
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin: auto;
+  }
+  
+  .button:hover {
+    cursor: pointer;
+    background-color: White;
+    background-image: none;
+    color: black;
+    border-left: 6px ;
+    border-right: 6px ;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  }
+  .style1{
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    color:black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0px 8px 16px 0px #33bbff;
+  
+}
+
+.hidden {
+  color: white;
+  border-left: 6px solid black;
+  padding: 5px 5px;
+  background-color: #0066cc;
+
+}

@@ -1,0 +1,49 @@
+.app {
+  min-height: 100vh;
+  background: rgb(95, 167, 190);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Tweet {
+  height: 300px;
+  width: 300px;
+  background: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.red{
+  color: red;
+  
+}
+
+.increment {
+  background-color: white;
+  border-radius: 5px;
+  height: 25px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.counter {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.Oof {
+  background-color:blue;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

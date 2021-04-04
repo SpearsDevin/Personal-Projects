@@ -1,0 +1,45 @@
+.nav1 {
+    color: Blue;
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}
+.nav2 {
+    color: #0000ff;
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}
+.nav3 {
+    color: Blue;
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.page1{
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    height: 200px;
+    width:200px;
+    cursor: pointer;
+}
+
+.page2 {
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+    height: 200px;
+    width:200px;
+    cursor: pointer;
+}
+
+.page3 {
+    background-color: Blue;
+    color: white;
+    border-radius: 50%;
+    height: 200px;
+    width:200px;
+    cursor: pointer;
+}

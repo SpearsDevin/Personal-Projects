@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    border: 0;
+}
+body {
+    background-color: black;
+}
+
+
+.bg-bkgd{
+    height: 500px;
+    width: 800px;
+    background-color: rgb(78, 78, 78);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    border-radius: 25px;
+    z-index: 10;
+}
+
+.bg-card{
+    height: 500px;
+    width: 800px;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    border-radius: 25px;
+    z-index: 10000;
+}
+
+.pf-card{
+    width: 200px;
+    margin-top: 6%;
+    margin-bottom: 10%;
+    height: 80%;
+    background-color: green;
+    border-radius: 25px;
+}
+
+.pf-card, p{
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+}

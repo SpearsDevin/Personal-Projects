@@ -1,0 +1,216 @@
+/*  rgb(212,186,153) background
+
+rgb(180,144,112) Shadow     
+
+rgb(198,133,103) card color 
+
+rgb(178,97,68) header 
+*/
+
+
+
+
+
+* {
+    background: rgb(212,186,153);
+}
+
+.home {
+display: inline-block;
+}
+
+section {
+    display: -webkit-flex;
+    display: flex;
+  }
+
+header h1 {
+    text-align: center; 
+    background: rgb(178,97,68);
+    padding: 10px;
+    color: white;
+}
+
+footer h2 {
+    text-align: left; 
+    background: rgb(178,97,68);
+    padding: 20px;
+    color: white;
+}
+
+.cont .card{
+    background: rgb(198,133,103);
+    display: block;
+}
+
+img {
+    box-shadow: 0px 8px 26px 0px rgb(111,86,64);
+}
+
+ .card {
+    position: relative;
+    width: 320px;
+    height: 450px;
+    background: #232323;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 8px 16px 0px rgb(111,86,64);
+}
+
+ .card .imgbox {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10000;
+    width: 100%;
+    height: 220px;
+    transition: 0.5s;
+    background: rgb(198,133,103);
+}
+
+ .card:hover .imgbox {
+    top: 0%;
+    transform: translateY(0%);
+}
+
+ .card .contentBx {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    transition: 1s;
+    z-index: 10;
+    background: rgb(198,133,103);
+}
+
+ .card:hover .contentBx {
+    height: 210px;
+}
+
+ .card .contentBx h2{
+    position: relative;
+    font-weight: 600;
+    letter-spacing: 1;
+    color: #fff;
+    background: rgb(198,133,103);
+}
+
+ .card .contentBx .price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    background: rgb(198,133,103);
+}
+
+ .card:hover .contentBx .price {
+    opacity: 1;
+    visibility: visible;
+}
+
+ .card .contentBx .price h3 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 10px;
+    background: rgb(198,133,103);
+}
+
+ .card .contentBx .price span {
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 14px;
+    display: inline-block;
+    color: #111;
+    background-color: #fff;
+    margin: 0 5px;
+    transition: 0.5s;
+    color: #111;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+ .card .contentBx .price span:hover {
+    background: #33bbff;
+}
+
+ .card .contentBx .amount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    background: rgb(198,133,103);
+}
+
+ .card:hover .contentBx .amount {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.25s;
+}
+
+ .card .contentBx .amount h3 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 10px;
+    background: rgb(198,133,103);
+}
+
+ .card .contentBx .amount span {
+    width: 35px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 14px;
+    display: inline-block;
+    color: #111;
+    background-color: #fff;
+    margin: 0 5px;
+    transition: 0.5s;
+    color: #111;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+ .card .contentBx .amount span:hover {
+    background: #33bbff;
+}
+
+ .card .contentBx a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 4px;
+    margin-top: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #111;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s;
+}
+
+ .card:hover .contentBx a {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: 0.75s;
+    transition-delay: 0.3s;
+}
+
+ .card .contentBx a:hover {
+    transition-delay: 0s;
+    background: #9bdc28;
+}

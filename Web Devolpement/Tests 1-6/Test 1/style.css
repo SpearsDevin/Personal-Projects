@@ -1,0 +1,79 @@
+.layout {
+    display: inline-block;
+    background: grey;
+    color: white;
+    text-align: center;
+    min-width: 100%;
+    padding-bottom: 15px;
+    padding-top: 125px;
+}
+
+span {
+    min-width: 50px;
+    min-height: 25px;
+    padding-bottom: 20px;
+    padding: 5px;
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+.img{
+    width: 5%;
+    height: auto;
+    box-shadow: 0px 8px 26px 0px rgb(111,86,64);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10000;
+    width: 100%;
+    height: 220px;
+    transition: 0.5s;
+    background: darkgrey;
+}
+.box {
+    background: darkgrey;
+    display: inline-block;
+    width: 220px;
+    height: 300px;
+    border-radius: 5%;
+    overflow: hidden;
+    box-shadow: 0px 8px 16px 0px rgb(111,86,64);
+}
+
+.box .imgbox {
+
+    top: 70%;
+    transform: translateY(50%);
+    z-index: 10000;
+    width: 100%;
+    height: 200px;
+    transition: 0.5s;
+    background: darkgrey;
+}
+
+.box:hover .imgbox {
+    top: 0%;
+    transform: translateY(0%);
+}
+
+.box .title {
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    transition: 1s;
+    z-index: 10;
+    background: darkgrey;
+
+}
+
+.box .title h2{
+    font-weight: 600;
+    letter-spacing: 1;
+    color: #fff;
+    background: darkgrey;
+}
+.box:hover .title h2 {
+    top: 0%;
+    transform: translateY(0%);
+}

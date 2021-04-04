@@ -1,0 +1,58 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px;
+}
+
+.img1 {
+    width: 100px;
+    height: auto;
+}
+.img2 {
+    width: 100px;
+    height: auto;
+}
+
+.under {
+    position: absolute;
+    left: 105px;
+    top: 5px;
+    z-index: -1;
+    width: 400px;
+    height: auto;
+  }
+  
+  .over {
+    position: absolute;
+    left: 320px;
+    top: 150px;
+    z-index: -1;
+    width: 275px;
+    height: auto;
+  }
+
+.box2 {
+    position: relative;
+    padding-top: 120px;
+    padding-left: 25px;
+    padding-right: 50px;
+}
+.box2 p{
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.brand{
+    position: relative;
+    top: -40px;
+    left: 580px;
+    font-family: Parisienne, sans-serif;
+    font-size: 70px;
+}
+
+@font-face {
+     font-family: Parisienne; src: url('Parisienne-Regular.ttf'); 
+}
+@font-face { 
+    font-family: Parisienne; src: url('Parisienne-Regular.ttf'); 
+}

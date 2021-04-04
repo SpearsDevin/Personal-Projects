@@ -1,0 +1,44 @@
+.one {
+    text-align: center;
+    background-color: navy;
+    margin-top: 0px;
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.nav {
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.center {
+    width: 100%; 
+    height: auto;
+}
+.ha {
+    height:40%;
+    width: auto;
+ 
+}
+
+.ghost {
+    opacity: 0.0;
+}
+
+.hello {
+    position: relative;
+    visibility: hidden;
+}
+.center:hover .hello{
+    visibility: visible;
+    position: relative;
+    top: -50;
+    right: -500;
+    transition: 0.5s;
+    transform: translateY(500px)translateX(-500px);
+    transition: 0.5s;
+   ;
+}

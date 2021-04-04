@@ -1,0 +1,17 @@
+body {
+    background-image: linear-gradient(to right, rgb(212,186,153), lightgrey);
+}
+
+header {
+    text-align: center;
+    border-bottom: 6px solid black;
+    background: #131313;
+    color: white;
+}
+
+.boxes {
+    display: inline-block;
+    text-align: center;
+    padding: 30px;
+    max-width: 100%;
+}

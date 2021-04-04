@@ -1,0 +1,31 @@
+p {
+    color:green;
+    text-align: center; 
+    font-size: 22px;
+}
+
+#second-heading {
+    /* underline all second headings */
+    text-decoration: underline !important;
+}
+
+.special-div {
+    text-align: right;
+}
+
+p.center {
+    text-align: center;
+    color: red;
+  }
+  .box {
+    width: 300px;
+    height: 200px;
+    padding: 25px;
+    border: 25px solid green;
+    margin: 25px;
+    text-align: center;
+    display: block;
+  }
+body {
+    font-family: "Times New Roman", Times, serif;
+  }
